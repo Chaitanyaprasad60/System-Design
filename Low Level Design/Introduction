@@ -1,0 +1,9 @@
+Low Level Design 
+LLD, or Low-Level Design, is a phase in the software development process where detailed system components and their interactions are specified. It involves converting the high-level design into a more detailed blueprint, addressing specific algorithms, data structures, and interfaces. LLD serves as a guide for developers during coding, ensuring the accurate and efficient implementation of the system’s functionality. LLD describes class diagrams with the help of methods and relations between classes and program specs. (Refer this for all details on roadmap - https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/ )
+
+Roadmap to Low-level Designing
+1. Object Oriented Principles
+2. Process of Analyzing and design
+3. Design Patterns
+4. UML Diagram
+5. SOLID principles
