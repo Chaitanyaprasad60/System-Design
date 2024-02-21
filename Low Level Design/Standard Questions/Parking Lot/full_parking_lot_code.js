@@ -5,13 +5,19 @@
 class ParkingSpace {
 
     constructor({ length = 10, breadth = 10, numberOfGates = 2,
-        entryGatesPosition = [[0, 0]],
-        exitGatesPosition = [[0, 0]] } = {}) {
+        entryGates = { position: [0, 0], parkingStategy },
+        exitGates = { position: [0, 0] },
+        lifts = { position: [0, 0] } } = {}) {
+
+            
         this.allSpots = new Array(length).fill().map(x => new Array(breadth).fill(false));
         this.vacantSpots = length * breadth;
         this.length = length;
         this.breadth = breadth;
         this.numberOfGates = numberOfGates;
+        // Create all objects and pass proper classes to them 
+        // Like create Exit gate and pass payment processors to them
+        // Create Parking Space
     }
 
 }
